@@ -7,9 +7,11 @@ export const Navbar = () => {
     return (
 
         <div className='w-full h-16 flex justify-between items-center bg-slate-500 text-white fixed mb-32 px-20'>
-            <h1 onClick={() => {
+            <button 
+            className='py-1 px-4 text-lg'
+             onClick={() => {
                 navigator('/')
-            }}>FireBase Home</h1>
+            }}>FireBase Home</button>
 
             <div className='flex justify-center items-center gap-3'>
                 <button className='bg-slate-600 py-1 px-4 rounded-md flex justify-center items-center text-lg'
